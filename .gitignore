@@ -1,7 +1,10 @@
 *.DS_Store
  
- # Visual Studio Code
+# Visual Studio Code
 .vscode/
 
 # Node.js
 node_modules/
+
+# Secrets and Environment Variables
+.env
