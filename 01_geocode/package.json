@@ -1,0 +1,18 @@
+{
+  "name": "01_geocode",
+  "version": "1.0.0",
+  "description": "Mapbox Geocoding Example in JavaScript",
+  "main": "src/index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "brittni",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@mapbox/mapbox-sdk": "^0.16.1",
+    "dotenv": "^17.2.1"
+  }
+}
