@@ -49,9 +49,20 @@ async function main() {
         console.error('Please set the MAPBOX_ACCESS_TOKEN environment variable.');
         process.exit(1);
     }
+
+    const address = '476 5th Ave, New York, NY 10018';
+    const geocodingClient = new MapBoxGeocodingClient();
+    const coordinates = await geocodingClient.geocodeAddress(address);
+
+    if (coordinates) {
+        console.log(`Coordinates for "${address}":`);
+        console.log(`Latitude: ${coordinates.latitude}, Longitude: ${coordinates.longitude}`);
+    } else {
+        console.log('Failed to retrieve coordinates.');
+    }
 }
 
 main().catch((error) => {
     console.error(error);
     process.exit(1);
-});;
+});
