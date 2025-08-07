@@ -45,6 +45,14 @@ To run the geocoding example, execute the following command in the `01_geocode` 
 node src/index.js
 ```
 
+## Resources and References
+
+[Mapbox](https://www.mapbox.com/)
+
+[Mapbox Docs: Geocoding API](https://docs.mapbox.com/api/search/geocoding/)
+
+[Mapbox Docs: Address Geocoding Format Guide](https://docs.mapbox.com/help/troubleshooting/address-geocoding-format-guide/)
+
 ----
 
 Copyright (C) 2025 brittni and the polar bear LLC.
