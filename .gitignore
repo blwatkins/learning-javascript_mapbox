@@ -2,3 +2,6 @@
  
  # Visual Studio Code
 .vscode/
+
+# Node.js
+node_modules/
